@@ -91,6 +91,18 @@ and identify it as a paraphrase where necessary. Never create wording that
 visually resembles a verbatim quotation when only a translated or
 paraphrased version is available.
 
+## Output language consistency
+
+Analytical prose must be written consistently in English.
+
+Portuguese or other source-language text should appear only when:
+- it is an actual quotation preserved verbatim from the literature note; or
+- a technical term requires preservation of its original wording.
+
+Do not accidentally leave untranslated source-note fragments embedded
+inside English analytical prose. If source material is paraphrased into
+English, do not use quotation marks.
+
 ## Section 12 — Concepts relevant across the corpus
 
 Heading must be exactly `## 12. Concepts relevant across the corpus`. List
@@ -130,6 +142,39 @@ For every EXPLICIT row, make clear that the basis is the literature note
 reasoning connecting the note evidence to the derived claim. For every
 UNSUPPORTED row, state what information is absent. Do not change the
 existing EXPLICIT / DERIVED / UNSUPPORTED taxonomy.
+
+### Canonical evidence status only
+
+The Status column must use only these canonical statuses, exactly as
+written:
+
+EXPLICIT
+DERIVED
+UNSUPPORTED
+
+Do not create hybrid labels such as:
+- EXPLICIT / UNSUPPORTED
+- EXPLICIT (claim) / UNSUPPORTED (measurement)
+- DERIVED / contested
+- UNSUPPORTED / DERIVED
+
+If one analytical observation contains two different evidence statuses,
+split it into two separate evidence-table rows rather than blending the
+statuses into one cell. Example:
+
+Row 1:
+Claim: The note reports that internal stakeholders are more powerful
+drivers.
+Status: EXPLICIT.
+
+Row 2:
+Claim: The basis or measurement used to establish that comparative
+strength is not described in the note.
+Status: UNSUPPORTED.
+
+Qualifiers such as "authors' claim", "interpretation", "possibility", or
+"contested" should be explained in the Claim or Basis/Reasoning field, not
+by creating a new Status category.
 
 ## General discipline
 
