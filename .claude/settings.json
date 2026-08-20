@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "deny": [
+      "Write(dissertation/original/**)",
+      "Edit(dissertation/original/**)"
+    ]
+  }
+}
